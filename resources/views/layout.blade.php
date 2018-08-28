@@ -15,8 +15,8 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <!-- Material Icons -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/toastr.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css', true) }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/toastr.min.css', true) }}">
         
     </head>
     <body>

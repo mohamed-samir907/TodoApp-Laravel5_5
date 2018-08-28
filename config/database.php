@@ -35,7 +35,7 @@ return [
 
         'sqlite' => [
             'driver' => 'sqlite',
-            'database' => env('DB_DATABASE', database_path('todo.sqlite')),
+            'database' => env('DB_DATABASE', app_path('todo.sqlite')),
             'prefix' => '',
         ],
 
